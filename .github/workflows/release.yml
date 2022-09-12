@@ -31,4 +31,4 @@ jobs:
       uses: softprops/action-gh-release@v1
       if: startsWith(github.ref, 'refs/tags/')
       with:
-        files: DesignPatterns.Net.${{ github.event.release.tag_name }}.zip
+        files: ./src/DesignPatterns.Net/bin/Release/DesignPatterns.Net.${{ github.event.release.tag_name }}.nupkg
