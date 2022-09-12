@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Tests.Singleton.Implementations;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DesignPatterns.Tests.Singleton
 {

@@ -1,8 +1,8 @@
 ﻿namespace DesignPatterns.Singleton
 {
-    public abstract class ThreadSafeSingleton<T> where T : new()
+    public abstract class ThreadSafeSingleton<T> where T : class, new()
     {
-        private static readonly object padlock = new();
+        private static readonly object padlock = new object();
 
         private static T? instance;
 
