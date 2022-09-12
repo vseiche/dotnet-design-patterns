@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Net", "DesignPatterns.Net\DesignPatterns.Net.csproj", "{2BA3CD02-C8EE-4E60-8F95-9323ACC25F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Net.Tests", "DesignPatterns.Net.Tests\DesignPatterns.Net.Tests.csproj", "{7A2760DC-3279-44F7-BB7E-0433825C7C9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BA3CD02-C8EE-4E60-8F95-9323ACC25F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA3CD02-C8EE-4E60-8F95-9323ACC25F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA3CD02-C8EE-4E60-8F95-9323ACC25F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA3CD02-C8EE-4E60-8F95-9323ACC25F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2760DC-3279-44F7-BB7E-0433825C7C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2760DC-3279-44F7-BB7E-0433825C7C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2760DC-3279-44F7-BB7E-0433825C7C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2760DC-3279-44F7-BB7E-0433825C7C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7E9CB43-6FDB-4FF2-BB0E-E6117FA94425}
+	EndGlobalSection
+EndGlobal

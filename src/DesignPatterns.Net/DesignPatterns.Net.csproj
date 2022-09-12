@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>Desing Patterns .Net</Title>
+    <Company />
+    <Authors>Voicu Seiche</Authors>
+    <Version>0.1.0</Version>
+    <Product>DesignPatterns.Net</Product>
+    <Description>A small framework for faster usage of the well known design patterns.</Description>
+    <Copyright>Voicu Seiche</Copyright>
+    <PackageTags>dotnet; design patterns; framework;</PackageTags>
+    <PackageProjectUrl>https://github.com/vseiche/dotnet-design-patterns</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/vseiche/dotnet-design-patterns</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
