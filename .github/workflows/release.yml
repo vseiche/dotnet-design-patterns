@@ -22,4 +22,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: DesignPatterns.Net
-        path: ./src/DesignPatterns.Net/bin/Release/DesignPatterns.Net.
+        path: ./src/DesignPatterns.Net/bin/Release/DesignPatterns.Net.${{ github.event.release.tag_name }}.nupkg
