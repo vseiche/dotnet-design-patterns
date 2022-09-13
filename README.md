@@ -1,1 +1,1 @@
-# dotnet-design-patterns
+# DesignPatterns.Net
